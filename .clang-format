@@ -1,0 +1,16 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+AllowShortFunctionsOnASingleLine: Inline
+BreakBeforeBraces: Attach
+SpacesInParentheses: false
+SpaceAfterCStyleCast: false
+SpaceBeforeParens: ControlStatements
+PointerAlignment: Left
+DerivePointerAlignment: false
+SortIncludes: false
+Cpp11BracedListStyle: true
+Standard: Cpp11
+AccessModifierOffset: -4

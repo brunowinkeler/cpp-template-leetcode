@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug selected binary (MacOs)",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/${input:selectBinary}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false
+        }
+    ],
+    "inputs": [
+        {
+            "id": "selectBinary",
+            "type": "pickString",
+            "description": "Select binary to debug",
+            "options": [
+                // place the name of binaries here
+                "example1",
+            ]
+        }
+    ]
+}
